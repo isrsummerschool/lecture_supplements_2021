@@ -21,10 +21,7 @@ Below, we have some basic instructions for each operating system to guide you:
 
 ### Linux
 
-
-### Linux
-
-We only provide example commands here for Ubuntu, but the process is similar for other Linux versions.
+We only provide example commands here for Ubuntu, but the process is similar for other Linux distributions.
 
 **1)** Install ``git`` with your package manager and clone the repository:
 
