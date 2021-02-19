@@ -6,3 +6,4 @@ madrigalweb==3.1.12
 h5py==2.10.0
 tables==3.6.1
 ipywidgets==7.5.1
+jupyterlab==3.0.8
