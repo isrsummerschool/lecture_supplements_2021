@@ -16,7 +16,23 @@ If you want to use this locally, here are the basics steps:
 Below, we have some basic instructions for each operating system to guide you:
 
 ### Windows
+#### Recommended Python and Git Installation
+We recommend using a package manager to obtain several common developer tools, including git and miniconda. We'll use git to clone git repositories and miniconda to provide a Python installation. Miniconda is a free minimal installation of conda. Many Python packages depend on other system libraries and conda provides both the Python packages and the system libraries in a platform independent way. Basically this helps make using Python on Windows and macOS much easier.
+1.	Download and install chocolatey. It’s a package manager for helping you install and manage other things: https://chocolatey.org/
+2.	In a powershell terminal with administrative privledges, install git, bash, miniconda, and the mingw32 compiler:
+    1. choco install git
+    2. choco install miniconda3 --params="'/AddToPath:1'" --params="'/RegisterPython:1'"
 
+For more information, see the documentation on chocolatey for [git](https://community.chocolatey.org/packages/git), [miniconda3](https://community.chocolatey.org/packages/miniconda3), and [anaconda3](https://community.chocolatey.org/packages/anaconda3)
+
+##### Using Anaconda instead of miniconda
+If you would prefer to install the full Anaconda instead of miniconda, replace step b. with:
+b. choco install anaconda3 --params="'/AddToPath:1'"
+
+#### Installing Python and Git Without Chocolatey
+If you would prefer to install git and miniconda without using chocolatey, you can do so by following these instructions:
+1. Download and install git-bash from [here](https://gitforwindows.org/)
+2. Download and install [miniconda](https://docs.conda.io/en/latest/miniconda.html) or [anaconda](https://www.anaconda.com/products/individual-b)
 ### macOS
 
 **1)** Install Anaconda for mac from https://www.anaconda.com/products/individual
