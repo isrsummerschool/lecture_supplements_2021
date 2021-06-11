@@ -19,6 +19,33 @@ Below, we have some basic instructions for each operating system to guide you:
 
 ### macOS
 
+**1)** Install Anaconda for mac from https://www.anaconda.com/products/individual
+
+**2)** Set up a python environment
+
+    Open a terminal
+    > conda create -n isrschool anaconda  (or use a different name than isrschool)
+    > conda activate isrschool
+    
+**3)** Install git
+
+    > conda install git 
+    
+**4)** Clone this repository:
+
+    $ git clone https://github.com/isrsummerschool/lecture_supplements_2021.git
+    
+**5)** Install the python packages that the lecture supplement notebooks need:
+
+    $ cd lecture_supplements_2021
+    $ pip install -r requirements.txt
+
+
+**6)** Now you can start up a Jupyter Lab server and work with the notebooks:
+
+    $ jupyter lab
+
+
 ### Linux
 
 We only provide example commands here for Ubuntu, but the process is similar for other Linux distributions.
