@@ -2,9 +2,12 @@
 
 This is a collection of codes and Jupyter notebooks to supplement the 2021 IS Radar Summer School lectures.
 
+___
+
 ## Using in the Cloud
 You can interact with the Jupyter notebooks in this repository using the free server, Binder. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/isrsummerschool/lecture_supplements_2021/main)
 
+___
 
 ## Using Locally
 
@@ -14,6 +17,8 @@ If you want to use this locally, here are the basics steps:
 3. run a Jupyter Lab server
 
 Below, we have some basic guiding instructions for installing and using this repository on the Windows 10, macOS, and Linux operating systems.
+
+___
 
 ### Windows
 #### Recommended Python and Git Installation
@@ -56,6 +61,7 @@ All of the following commands should be run either from the "Anaconda Powershell
 
     $ jupyter lab
 
+___
 
 ### macOS
 
@@ -85,6 +91,7 @@ All of the following commands should be run either from the "Anaconda Powershell
 
     $ jupyter lab
 
+___
 
 ### Linux
 
