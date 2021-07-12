@@ -31,9 +31,9 @@ We recommend using a package manager to obtain several common developer tools, i
 For more information, see the documentation on chocolatey for [git](https://community.chocolatey.org/packages/git), [miniconda3](https://community.chocolatey.org/packages/miniconda3), and [anaconda3](https://community.chocolatey.org/packages/anaconda3)
 
 ##### Using Anaconda instead of miniconda
-If you would prefer to install the full Anaconda instead of miniconda, replace step b. with:
+If you would prefer to install the full Anaconda instead of miniconda, replace step 2.ii. with:
 ```
-b. choco install anaconda3 --params="'/AddToPath:1'"
+choco install anaconda3 --params="'/AddToPath:1'"
 ```
 #### Installing Python and Git Without Chocolatey
 If you would prefer to install git and miniconda without using chocolatey, you can do so by following these instructions:
