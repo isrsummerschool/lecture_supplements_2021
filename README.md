@@ -69,7 +69,8 @@ ___
 
 **2)** Set up a Python environment
 
-    Open a terminal
+Open a terminal, then:
+
     $ conda create -n isrschool anaconda   #(or use a different name than isrschool)
     $ conda activate isrschool
     
